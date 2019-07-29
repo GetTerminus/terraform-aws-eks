@@ -78,7 +78,7 @@ data "template_file" "map_users" {
   vars {
     user_arn = "${lookup(var.map_users[count.index], "user_arn")}"
     username = "${lookup(var.map_users[count.index], "username")}"
-    group    = "${lookup(var.map_users[count.index], "group")}"
+    groups   = "${lookup(var.map_users[count.index], "groups")}"
   }
 }
 
@@ -89,7 +89,7 @@ data "template_file" "map_roles" {
   vars {
     role_arn = "${lookup(var.map_roles[count.index], "role_arn")}"
     username = "${lookup(var.map_roles[count.index], "username")}"
-    group    = "${lookup(var.map_roles[count.index], "group")}"
+    groups   = "${lookup(var.map_roles[count.index], "groups")}"
   }
 }
 
