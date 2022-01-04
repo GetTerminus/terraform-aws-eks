@@ -12,8 +12,8 @@ Please explain the changes you made here and link to any relevant issues.
 - [ ] README.md has been updated after any changes to variables and outputs. See https://github.com/terraform-aws-modules/terraform-aws-eks/#doc-generation
 
 ### Minimal Risk Level:
-#### Is this behind a feature toggle?
+#### Does this change have potential to cause downtime? 
 <!-- ignore-task-list-start -->
-- [ ] Yes - This is a low risk change
-- [ ] No - This is high risk change and must be elevated or higher and you need more approvals
+- [ ] No - This is a low risk change
+- [ ] Yes - This is high risk change and must be elevated or higher and you need more approvals
 <!-- ignore-task-list-end -->
